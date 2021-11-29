@@ -1,22 +1,40 @@
-#left {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&display=swap');
+h1{
+    font-family: 'Pacifico', cursive;
+    letter-spacing : 4px;
+}
+body{
+    background-image: url("bg.jpg");
+    
+}
+    #left {
+    font-family: 'Alfa Slab One', cursive;
     float:left; 
     background:green;
     width:33.333%;
     height:280px;
+    border-radius:10px;
     }
     #middle{
+    font-family: 'Alfa Slab One', cursive;
     float:right;
     background:yellow;
     width:33.333%;
     height:280px;
+    border-radius:10px;
+    
     }  
     #right{
+    font-family: 'Alfa Slab One', cursive;
     float:right;
     background: blue;
     width:33.333%;
     height:280px;
+    border-radius:10px;
     }  
     #box{
+    font-family: 'Alfa Slab One', cursive;
     float:left;
     padding:10px;
     border:solid orange 2px;
@@ -28,7 +46,7 @@
     font-weight : bolder;
     }   
     .btn{
-    
+    font-family: 'Alfa Slab One', cursive;
     cursor: pointer;
     padding:10px;
     float:right;
