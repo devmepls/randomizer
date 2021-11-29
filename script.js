@@ -32,9 +32,9 @@ const random3 = Math.floor(Math.random()*(6)+1);
 //right.textContent=random3;
 //console.log(`/dice/dice-${random1}.png`);
 //const onedice = document.querySelector('.one-dice');
-document.querySelector('.one-dice').src=`/dice/dice-${random1}.png`;
-document.querySelector('.two-dice').src=`/dice/dice-${random2}.png`;
-document.querySelector('.three-dice').src=`/dice/dice-${random3}.png`;
+document.querySelector('.one-dice').src=`dice-${random1}.png`;
+document.querySelector('.two-dice').src=`dice-${random2}.png`;
+document.querySelector('.three-dice').src=`dice-${random3}.png`;
 const total=random1+random2+random3;
 sum.textContent=`Sum : ${total}`;
 
